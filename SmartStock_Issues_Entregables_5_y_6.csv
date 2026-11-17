@@ -1,0 +1,85 @@
+﻿id,title,responsable,prioridad,story_points,horas,body
+S5-01,Revisar requisitos de la cuarta entrega y contrastarlos con SQL y repositorio,Juan Esteban Aldana Ruiz,Alta,3,8,"Revisar los requisitos definidos en la cuarta entrega y contrastarlos con el esquema PostgreSQL y el código del repositorio.
+
+**Criterios de aceptación**
+- Matriz requisito–tabla–módulo documentada.
+- Diferencias entre requisitos, SQL y código registradas.
+- Referencias a los archivos revisados incluidas."
+S5-02,"Extraer entidades, atributos, tipos, PK/FK y restricciones PostgreSQL",Santiago Alvarez Palacio,Alta,5,12,"Identificar las entidades y documentar sus atributos, tipos de datos, claves primarias, claves foráneas y restricciones a partir de Smart-sql.sql.
+
+**Criterios de aceptación**
+- Diccionario de datos elaborado para las tablas identificadas.
+- Tipos, PK, FK y restricciones contrastados con el SQL.
+- Diferencias o elementos no confirmados señalados."
+S5-03,Construir MER conceptual y modelo relacional lógico,Santiago Alvarez Palacio,Alta,5,12,"Representar las entidades principales de SmartStock y sus relaciones en el modelo entidad–relación conceptual y en el modelo relacional lógico.
+
+**Criterios de aceptación**
+- Entidades y cardinalidades principales representadas.
+- Relaciones coherentes con las claves del esquema SQL.
+- Diagramas legibles y consistentes con el diccionario."
+S5-04,Documentar modelo físico PostgreSQL y reglas de integridad,Santiago Alvarez Palacio,Alta,5,12,"Documentar el modelo físico de PostgreSQL y las reglas de integridad observadas en el esquema, incluidas claves, restricciones, funciones y triggers relevantes.
+
+**Criterios de aceptación**
+- Tipos y claves descritos según el SQL.
+- Reglas de integridad y triggers relevantes explicados.
+- No se atribuyen al esquema tablas o reglas que no estén presentes."
+S5-05,Diseñar diagrama de clases y mapeo de objetos,Anelys Valentina Sequera,Media,5,12,"Diseñar el diagrama de clases de dominio y documentar la correspondencia entre clases, atributos, métodos y entidades/tablas de SmartStock.
+
+**Criterios de aceptación**
+- Clases principales con atributos y métodos identificados.
+- Relaciones entre clases representadas.
+- Correspondencia entre clases y tablas explicada."
+S5-06,"Revisar, validar y consolidar el quinto entregable",Equipo completo,Alta,3,8,"Realizar revisión editorial y validación cruzada del diccionario, modelos, diagrama de clases, anexos y enlaces del quinto entregable.
+
+**Criterios de aceptación**
+- Documento revisado por el equipo.
+- Anexos y enlaces incorporados y comprobados.
+- Consistencia entre SQL, diagramas y documento verificada."
+S6-01,"Verificar trazabilidad entre requisitos, historias, casos de uso y módulos",Juan Esteban Aldana Ruiz,Alta,3,8,"Revisar la correspondencia entre requisitos funcionales/no funcionales, historias de usuario, casos de uso y módulos presentes en el prototipo.
+
+**Criterios de aceptación**
+- Matriz de trazabilidad revisada.
+- Diferencias y relaciones faltantes documentadas.
+- Los identificadores se mantienen consistentes entre artefactos."
+S6-02,Revisar migraciones PostgreSQL y diccionario de datos frente al código,Santiago Alvarez Palacio,Alta,3,8,"Contrastar las migraciones PostgreSQL y el diccionario de datos con las consultas y operaciones del backend.
+
+**Criterios de aceptación**
+- Tablas, relaciones y reglas identificadas.
+- Correspondencia entre persistencia y código revisada.
+- Discrepancias registradas sin asumir funcionalidades no demostradas."
+S6-03,Verificar arquitectura y endpoints del backend,Santiago Alvarez Palacio,Alta,3,8,"Revisar la arquitectura del servidor y documentar las rutas API, su responsabilidad y su relación con los módulos del frontend.
+
+**Criterios de aceptación**
+- Rutas API principales inventariadas.
+- Responsabilidad de cada módulo descrita.
+- Autenticación y protección de rutas identificadas según el código revisado."
+S6-04,"Revisar pantallas, navegación y evidencias del frontend",Anelys Valentina Sequera,Alta,3,8,"Revisar las pantallas del prototipo GUI, su navegación y su correspondencia con los requisitos y módulos definidos.
+
+**Criterios de aceptación**
+- Recorrido de navegación comprobado.
+- Capturas reales de las pantallas principales incorporadas.
+- Cada captura identifica pantalla, acción y resultado observado."
+S6-05,Ejecutar pruebas funcionales de los flujos prioritarios,Juan Esteban Aldana Ruiz + equipo,Alta,5,12,"Ejecutar y documentar pruebas funcionales de los flujos prioritarios de SmartStock, registrando datos utilizados, resultados y defectos encontrados.
+
+**Criterios de aceptación**
+- Pruebas ejecutadas en un entorno identificado.
+- Resultado real registrado como Aprobado, Fallido o Bloqueado.
+- Evidencias adjuntas; las pruebas no ejecutadas permanecen pendientes."
+S6-06,Preparar entorno local y datos para la demostración,Santiago Alvarez Palacio + Anelys Valentina Sequera,Alta,3,8,"Preparar el entorno local de demostración y verificar la conexión entre frontend, backend y PostgreSQL.
+
+**Criterios de aceptación**
+- PostgreSQL iniciado y conectado.
+- Backend y frontend iniciados sin errores bloqueantes.
+- Datos de demostración preparados y flujo principal accesible."
+S6-07,"Consolidar documento final, anexos y evidencias del sexto entregable",Anelys Valentina Sequera + equipo,Alta,5,12,"Consolidar el documento del sexto entregable y revisar que su contenido coincida con los artefactos, el código y las evidencias disponibles.
+
+**Criterios de aceptación**
+- Documento final coherente con el repositorio.
+- Anexos, capturas y enlaces incorporados.
+- Pendientes y limitaciones declarados con precisión."
+S6-08,Preparar y ensayar sustentación del proyecto,Equipo completo,Alta,2,6,"Preparar la sustentación de SmartStock, distribuir los temas entre los tres integrantes y ensayar el recorrido por el prototipo.
+
+**Criterios de aceptación**
+- Roles y tiempos de exposición definidos.
+- Guion y recorrido GUI revisados.
+- Equipo ensaya la exposición y prepara respuestas a preguntas."
