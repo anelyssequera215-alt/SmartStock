@@ -1,0 +1,6 @@
+BEGIN;
+
+ALTER TABLE sales
+    ADD COLUMN idempotency_key UUID UNIQUE;
+
+COMMIT;
